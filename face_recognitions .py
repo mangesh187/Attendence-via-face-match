@@ -81,4 +81,3 @@ for root,_,files in os.walk('/content/trainsetz/trainset.csv'):
 
     print("acc =", t/(t+f))
 
-
