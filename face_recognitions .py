@@ -14,7 +14,7 @@ import fnmatch
 from matplotlib import pyplot as plt
 # %matplotlib inline
 
-pip install face_recognition
+#pip install face_recognition
 
 import face_recognition as fr
 
