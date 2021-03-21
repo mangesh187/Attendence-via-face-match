@@ -32,7 +32,6 @@ plt.show()
 script = fr.load_image_file('/content/trainsetz/trainset/0001/0001_0000262/0001_0000262_script_2.jpg')
 plt.imshow(script)
 plt.show()
-
 faceLoc = fr.face_locations(face)    #locate where face is in picture
 
 encodes = fr.face_encodings(face, faceLoc)  #apply face encoding 
